@@ -1,0 +1,51 @@
+header {
+   
+    width: 100%;
+    height: auto;
+}
+.form-header{
+    
+    width: 40%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    margin-top: 45px;
+}
+.form-header h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+.header-one{
+    text-align: center;
+}
+main{
+
+    width: 40%;
+    height: 200px;
+    position: relative;
+    margin: auto;
+}
+
+#icerik {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+#icerik td,#icerik tr{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#icerik th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  #icerik tr:nth-child(even){background-color: #f2f2f2;}
+
+#icerik tr:hover {background-color: #ddd;}
